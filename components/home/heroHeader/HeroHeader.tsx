@@ -93,7 +93,6 @@ const HeroHeader = () => {
             <li>SPA //</li>
             <li>RESTAURANT //</li>
             <li>SPORTS //</li>
-            <li>BIRD SANCTUARY //</li>
           </ul>
         </div>
         <div className="flex gap-[0px] w-full justify-between min-[900px]:flex-col min-[900px]:gap-2">
@@ -116,7 +115,7 @@ const HeroHeader = () => {
           /> */}
 
           <p className="font-helvetica tracking-[.05em] xl:w-[50%] max-md:w-[100%] max-[800px]:w-[100%] max-[760px]:text-center max-[900px]:ml-[5px]">
-            The luxurious hotel in the most beautiful European city with an
+            The luxurious hotel in the most beautiful city of Gurugram, with an
             exclusive restaurant, conference-hall, and art-bar.{" "}
           </p>
         </div>
