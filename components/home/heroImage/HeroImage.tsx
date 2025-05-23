@@ -58,9 +58,7 @@ function HeroImage({}: Props) {
           <p className="leading-7 ">ART & CONGRESS </p>
         </div>
         <div className="flex items-center justify-between gap-3 min-[450px]:text-[17px] max-[450px]:text-[15px] text-white_text font-helvetica ">
-          <p className="leading-7 underline underline-offset-1 ">
-            6A - ANTHONY HOROWITZ WAY, LEKKI{" "}
-          </p>
+         
           <p className="leading-7">HALL</p>
         </div>
       </div>
