@@ -9,13 +9,9 @@ const SmoothScroll = ({ children }: Props) => {
   useEffect(() => {
     const lenis = new Lenis({
       duration: 1.2,
-      lerp: 0.1,
-      // easing: (t) => {
-      //   return t < 0.5 ? 8 * t * t * t * t : 1 - 8 * --t * t * t * t;
-      // },
-      // easing: function (t) {
-      //   return t === 1 ? 1 : 1 - Math.pow(2, -10 * t);
-      // },
+      easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+      orientation: 'vertical',
+      smoothWheel: true,
       touchMultiplier: 2,
     });
 
