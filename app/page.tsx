@@ -26,9 +26,10 @@ export default function Home() {
         <FadeIn>
           <Navbar />
           <ParallaxHero />
+          <Facilities />
           <About_us />
           <InteractiveFeatures />
-          <Facilities />
+          
           <BestApartments />
           <ModernGallery />
           <Faq />
