@@ -27,10 +27,11 @@ export default function Home() {
           <Navbar />
           <ParallaxHero />
           <Facilities />
+
+          <BestApartments />
           <About_us />
           <InteractiveFeatures />
           
-          <BestApartments />
           <ModernGallery />
           <Faq />
           <ModernContactForm />
